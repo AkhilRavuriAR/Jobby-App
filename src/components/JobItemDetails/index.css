@@ -1,0 +1,14 @@
+.similarjobs-container {
+  text-decoration: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.similar-jobs {
+  color: white;
+}
+.jobdetailscontainer {
+  padding: 30px;
+}

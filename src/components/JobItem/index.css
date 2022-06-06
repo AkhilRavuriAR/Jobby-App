@@ -1,0 +1,89 @@
+.jobdetails-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  background-color: #202020;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+}
+.companylogo {
+  height: 50px;
+}
+.titleandrating {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.jobtitle {
+  font-size: 17px;
+  margin: 0px;
+  padding: 0px;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 7px;
+}
+.starlogo {
+  padding: 0px;
+  margin: 0px;
+  color: yellow;
+  margin-right: 8px;
+  font-size: 20px;
+}
+.rating {
+  padding: 0px;
+  margin: 0px;
+}
+.locationandotherdetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.locationandetype {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.alllogos {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  margin-right: 8px;
+  font-size: 12px;
+}
+.locationandtype {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.salary {
+  font-size: 20px;
+}
+.descriptiontitle {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+.description {
+  font-size: 12px;
+}

@@ -1,0 +1,24 @@
+.profile-bg {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profiledetails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 100%;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+}
+@media (min-width: 576px) {
+  .profile-bg {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,65 @@
+.navbar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #202020;
+  height: 90px;
+  margin: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.websitelogonavbar {
+  height: 50px;
+  margin-left: 30px;
+}
+.menu-buttons {
+  background-color: transparent;
+  margin: 0px;
+  border: none;
+  margin-right: 20px;
+  color: white;
+  font-size: 25px;
+
+  padding: 0px;
+}
+.logout-button {
+  margin-right: 50px;
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.homeLogo-button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  margin-right: 10px;
+}
+
+.menuicons {
+  font-size: 25px;
+}
+
+@media (min-width: 576px) {
+  .homeLogo-button {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .menu-buttons {
+    display: none;
+  }
+  .websitelogonavbar {
+    height: 30px;
+    margin-left: 20px;
+  }
+  .logout-button {
+    display: none;
+  }
+}
